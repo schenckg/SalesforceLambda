@@ -1,0 +1,21 @@
+
+{
+    "Information" : [
+        "This file provides default values for the deployment wizard inside Visual Studio and the AWS Lambda commands added to the .NET Core CLI.",
+        "To learn more about the Lambda commands with the .NET Core CLI execute the following command at the command line in the project root directory.",
+        "dotnet lambda help",
+        "All the command line options for the Lambda command can be specified in this file."
+    ],
+    "profile"     : "default",
+    "region"      : "us-east-1",
+    "configuration" : "Release",
+    "framework"     : "netcoreapp2.1",
+    "function-runtime" : "dotnetcore2.1",
+    "function-memory-size" : 128,
+    "function-timeout"     : 30,
+    "function-handler"     : "SalesforceLambda::SalesforceLambda.Function::FunctionHandler",
+    "function-name"        : "SalesforceLambda",
+    "function-role"        : "arn:aws:iam::479835525416:role/lambda_exec_ConnectLambda",
+    "tracing-mode"         : "PassThrough",
+    "environment-variables" : "\"ClientId\"=\"3MVG9ZF4bs_.MKuikSMPhj4s_KhQAqPajx4uh714D1yGB.xAp0Bu9U2KJwyc1gMgnYffTaCYtWT3GV9tCbv0g\";\"ClientSecret\"=\"8341F3FE96DDF218D534DE3B4963E1121B55AFF398A0683A885FE651CDAA759E\";\"Username\"=\"schenck.grant@grantschencksoftware.com\";\"Password\"=\"Biddle##01\";\"SecurityToken\"=\"W313mVjLNWDsA1frpkkznAbi\""
+}
