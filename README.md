@@ -1,7 +1,7 @@
 SalesforceLambda
 
-Code available on GitHub:
-https://github.com/schenckg/SalesforceLambda
+Video available on Youtube:
+https://youtu.be/WeHJDOWKS_M
 
 This Visual Studio 2017 Solution shows how to build an Amazon AWS Lambda Function which uses Salesforce's REST interface, specifically Saleforce's SOSL query feature to lookup and return Contacts which match a passed phone number.  This lambda function is called from a Amazon Connect Contact Flow.
 
